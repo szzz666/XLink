@@ -1,0 +1,19 @@
+name: XLink
+main: top.szzz666.XLink.XLinkMain
+version: "1.2.0"
+author: szzz666
+api: ["1.0.0"]
+description: XLink plugin
+
+commands:
+  swcp:
+    permission: command.xlink.swcp
+    description: "设置官网聊天密码"
+    usage: /swcp
+
+permissions:
+  command.xlink.swcp:
+    default: true
+
+
+

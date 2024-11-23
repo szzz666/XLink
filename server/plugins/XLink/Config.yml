@@ -1,0 +1,58 @@
+# 版本信息
+Version: "1.2.0"
+# 设置标识，表示该插件是否作为父服务器运行
+IsParentServer: true
+#======================分割线======================
+# 开启WebSocket支持
+UseWebSocket: true
+# WebSocket服务器端口
+WsServerPort: 28664
+# WebSocket连接URL
+WsConnectURL: "ws://127.0.0.1:28664"
+# WebSocket客户端重连间隔时间（以毫秒计）
+WsClientReconnectTime: 5000
+# WebSocket服务器启动延迟时间（以毫秒计）
+WsServerDelayStartupTime: 5000
+# 连接密码父服务器和子服务器相同即可,为null时不启用密码
+Password: "133874"
+# 密钥，加密和解密用的，要是16字节
+key: "t43Hq9WzG6bYTRdF"
+#IP白名单列表(不用认证)
+IpWhiteList:
+  - "127.0.0.1"
+  - "192.168.0.209"
+  - "192.168.0.42"
+#======================分割线======================
+# QQ互通配置
+# QQws地址(为空则不启用QQ群互通)
+QQws_url: "ws://127.0.0.1:3001/"
+# QQ群
+QQGroups:
+  - "279669759"
+QQChatMessage: "§6[QQ群] §b%name%§f >> %message% "
+# 查服命令
+QQQueryCmd:
+  - "query"
+  - "查服"
+  - "在线"
+QueryServerMessage: "[星空游戏] 当前在线玩家数：%playerNum% %players%"
+#======================分割线======================
+# 启用玩家事件监听（关闭后没办法发送跨服消息，但是可以接收跨服消息）
+UsePlayerListening: true
+# 隐藏默认的加入退出消息
+HideDefaultJoinMessage: true
+HideDefaultQuitMessage: true
+# 使用服务器级别的加入和退出消息通知
+UseServerJoinMessaging: true
+UseServerQuitMessaging: true
+# 使用玩家跨服聊天消息通知
+UsePlayerChatMessaging: true
+
+#======================分割线======================
+#跨服消息模板配置
+# 玩家加入服务器时的消息模板
+PlayerJoinMessage: "§e玩家 %playerName% 加入服务器"
+# 玩家退出服务器时的消息模板
+PlayerQuitMessage: "§e玩家 %playerName% 退出服务器"
+# 玩家聊天时的消息模板
+PlayerChatMessage: "§b[星空游戏] §f%playerName% >> %message% "

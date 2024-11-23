@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="XLink">
+    <output-path>$PROJECT_DIR$/server/plugins</output-path>
+    <root id="archive" name="XLink.jar">
+      <element id="module-output" name="XLink" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/java-websocket/Java-WebSocket/1.5.6/Java-WebSocket-1.5.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

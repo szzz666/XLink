@@ -1,0 +1,25 @@
+2024-08-11 14:57:56.797 [main] INFO  - Loading server properties...
+2024-08-11 14:57:56.956 [main] INFO  - §b-- §cNukkit §dMOT §b--
+2024-08-11 14:58:00.389 [main] INFO  - Loaded 0 resource packs
+2024-08-11 14:58:00.412 [main] INFO  - Opening server on 0.0.0.0:19134
+2024-08-11 14:58:01.140 [main] INFO  - Enabling Nukkit-MOT vgit-55743dd
+2024-08-11 14:58:01.149 [main] INFO  - Loading XLink v1.2.0
+2024-08-11 14:58:01.158 [main] INFO  - [XLink] XLink插件读取
+2024-08-11 14:58:01.158 [main] INFO  - [XLink] __  ___    _      _   
+2024-08-11 14:58:01.158 [main] INFO  - [XLink] \ \/ / |  (_)_ _ | |__
+2024-08-11 14:58:01.160 [main] INFO  - [XLink]  >  <| |__| | ' \| / /
+2024-08-11 14:58:01.160 [main] INFO  - [XLink] /_/\_\____|_|_||_|_\_\
+2024-08-11 14:58:01.185 [main] INFO  - native LevelDB provider: false
+2024-08-11 14:58:01.202 [main] INFO  - Preparing level "§aworld§f"
+2024-08-11 14:58:01.469 [main] INFO  - Preparing level "§anether§f"
+2024-08-11 14:58:01.476 [main] INFO  - Enabling XLink v1.2.0
+2024-08-11 14:58:01.476 [main] INFO  - [XLink] XLink插件启用
+2024-08-11 14:58:01.488 [main] INFO  - [XLink] WebSocket服务器在 28664 端口上启动
+2024-08-11 14:58:01.488 [main] INFO  - [XLink] XLink插件 如有bug请加Q群反馈：894279534
+2024-08-11 14:58:01.523 [main] INFO  - Done (4.747s)! For help, type "help"
+2024-08-11 14:58:01.537 [WebSocketConnectReadThread-57] ERROR - [XLink] QQ连接已关闭，正在尝试重新连接...
+2024-08-11 14:58:02.337 [ForkJoinPool.commonPool-worker-1] INFO  - §c[Nukkit-MOT][Update] §eThere is a new build of §cNukkit§3-§dMOT §eavailable! Current: git-55743dd Latest: git-2e7bed4
+2024-08-11 14:58:02.338 [ForkJoinPool.commonPool-worker-1] INFO  - §c[Nukkit-MOT][Update] §eYou can download the latest build from https://github.com/MemoriesOfTime/Nukkit-MOT/
+2024-08-11 14:58:06.540 [WebSocketConnectReadThread-60] ERROR - [XLink] QQ连接已关闭，正在尝试重新连接...
+2024-08-11 14:58:09.363 [Thread-21] INFO  - Disabling XLink v1.2.0
+2024-08-11 14:58:09.363 [Thread-21] INFO  - [XLink] XLink插件关闭
